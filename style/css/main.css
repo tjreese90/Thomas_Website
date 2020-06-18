@@ -33,7 +33,7 @@ background-color: gray;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-animation-name: hvr-pulse;
+    -webkit-animation-name: hvr-pulse;
   animation-name: hvr-pulse;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -47,4 +47,16 @@ background-color: gray;
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.sub-header p {
+ text-align: center;
+ size: 12px;
+ font-family: serif;
+ border: 9px;
+ border-style: groove;
+ display: inline-block;
+ padding: 12px;
+ flex-direction: row;
+ flex-flow: row;
 }
