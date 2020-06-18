@@ -1,0 +1,20 @@
+.header {
+    size: 45px;
+    color: deepskyblue;
+    text-align: center;
+}
+
+body {
+background-color: gray;
+}
+
+.nav-bar {
+    text-align: center;
+    border: green;
+    border-style: double;
+    flex-direction: row;
+    flex-flow: row;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14x;
+    
+}
